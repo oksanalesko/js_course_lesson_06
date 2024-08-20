@@ -2,7 +2,7 @@
 // Введення даних, позначення величин
 
 const icePrice = 27
-let mykolaMoney = Math.floor(prompt('Миколо, скільки в тебе є грошей у гривнях?', '100'))
+let mykolaMoney = parseInt(prompt('Миколо, скільки в тебе є грошей у гривнях?', '100'))
 let iceCount = 0
 
 // Обчислення результатів
